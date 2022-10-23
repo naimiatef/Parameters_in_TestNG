@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- 1er cas -->
+	<test thread-count="5" name="param_opt">
+		<parameter name="message" value="Paramètre normal sélectionné" />
+		<classes>
+			<class name="exemple_2.Params_optionel" />
+		</classes>
+	</test> <!-- param_opt -->
+
+	<!-- 2ème cas : pas de valeur de paramètre -->
+	<test name="Params 2">
+		<classes>
+			<class name="exemple_2.Params_optionel" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
