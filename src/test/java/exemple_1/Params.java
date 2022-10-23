@@ -8,8 +8,6 @@ public class Params {
 	/*
 	 * Syntaxe : @Parameters ({"a", "b"}) où a et b sont les valeurs qui passent à
 	 * la fonction.
-	 * 
-	 * https://www.toolsqa.com/testng/testng-parameters/
 	 */
 
 	/*
