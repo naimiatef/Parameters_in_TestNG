@@ -5,7 +5,7 @@ Remarques:
     - similaire aux annotations dans TestNG dans leur déclaration. 
     - Semblable aux paramètres de tout autre langage de programmation, ils sont déclarés pour transmettre certaines valeurs à la fonction.
 - Une raison simple d’utiliser des paramètres est qu’ils nous permettent d’exécuter une fonction plusieurs fois avec des valeurs différentes ou d’exécuter différentes fonctions avec les mêmes valeurs
-- Syntaxe : @Parameters ({"a", "b"}) où a et b sont les valeurs qui passent à la fonction.
+- Syntaxe : ``` @Parameters ({"a", "b"}) ``` où a et b sont les valeurs qui passent à la fonction.
 -Les paramètres TestNG sont exécutés via le fichier XML TestNG et non directement à partir des fichiers de cas de test.
 
 - Comme prévu, le deuxième test s’est exécuté avec les paramètres facultatifs car je n’ai déclaré aucun paramètre dans le fichier XML.
